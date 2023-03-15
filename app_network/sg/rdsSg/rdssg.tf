@@ -1,5 +1,5 @@
 module "aws_db_security_group" {
-  source                  = "../../../modules/sg_module"
+  source                  = "github.com/sanijoi/MODULES/modules/sg_module"
   name_prefix             = "RDSsg"
   vpc_id                  = "vpc-0b97448f29df048bd"
 
